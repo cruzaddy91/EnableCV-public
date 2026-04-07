@@ -1,12 +1,12 @@
 # Python Examples
 
-Add sanitized Python examples here.
+Sanitized Python utilities that reflect the kind of operational support work
+needed to hand off reporting assets cleanly.
 
-Good candidates:
+Current examples:
 
-- validation runners
-- metadata comparison utilities
-- report-building helpers
-- lightweight audit scripts
+- `reporting_refresh_handoff.py` computes recommended BI refresh times from a
+  trigger schedule and prints a repeatable handoff checklist
 
-Use fabricated inputs and neutral naming.
+These examples are rewritten around generic schedule metadata and neutral
+project names rather than copied from a private environment.

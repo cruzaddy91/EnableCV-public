@@ -12,6 +12,10 @@ This repository is designed to show how I approach reporting delivery, SQL contr
   A sanitized SQL example showing a business-facing reporting contract built from operational and dimension data.
 - [Reporting Endpoint Validation Checks](examples/sql/reporting_endpoint_validation.sql)
   A small set of release-readiness checks for freshness, row counts, and key coverage.
+- [Reporting Refresh Handoff Utility](examples/python/reporting_refresh_handoff.py)
+  A sanitized Python utility that translates trigger cadence into operator-facing BI refresh guidance.
+- [Reporting View Validation Runner](examples/shell/validate_reporting_views.sh)
+  A sanitized shell workflow for row-count and schema parity checks before reporting handoff.
 
 ## What This Repo Demonstrates
 

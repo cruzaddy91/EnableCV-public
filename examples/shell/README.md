@@ -1,12 +1,12 @@
 # Shell Examples
 
-Add sanitized shell examples here.
+Sanitized shell workflows that show how repeatable release-readiness checks can
+be packaged for operators and engineers.
 
-Good candidates:
+Current examples:
 
-- release-readiness checks
-- file inventory scripts
-- environment validation wrappers
-- repeatable operator workflows
+- `validate_reporting_views.sh` assembles a read-only SQL parity check for
+  source tables and reporting views, then runs it through `sqlcmd`
 
-Keep examples generic and remove environment-specific commands.
+These examples use neutral schemas, object names, and environment variables so
+they stay portfolio-safe while still showing real operating patterns.
