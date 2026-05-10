@@ -8,3 +8,5 @@ coverage/
 tmp/
 *.log
 *.sqlite
+__pycache__/
+*.pyc

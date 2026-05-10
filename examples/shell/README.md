@@ -7,6 +7,8 @@ Current examples:
 
 - `validate_reporting_views.sh` assembles a read-only SQL parity check for
   source tables and reporting views, then runs it through `sqlcmd`
+- `verify_lineage_readonly.sh` checks expected reporting views and dependency
+  sources without changing database objects
 
 These examples use neutral schemas, object names, and environment variables so
 they stay portfolio-safe while still showing real operating patterns.
